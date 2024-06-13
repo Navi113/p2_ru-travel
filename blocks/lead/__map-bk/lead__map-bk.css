@@ -1,0 +1,7 @@
+.lead__map-bk {
+  width: 100%;
+  height: 615px;
+  display: flex;
+  align-items: flex-start;
+  background-image: url(../../../images/lead-img-girl.png);
+}
