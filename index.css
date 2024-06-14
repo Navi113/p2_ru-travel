@@ -35,3 +35,10 @@
 @import url(./blocks/intro/__list-item/intro__list-item.css);
 @import url(./blocks/intro/__span/intro__span.css);
 
+/* Footer */
+
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/footer/__nav/footer__nav.css);
+@import url(./blocks/footer/__link/footer__link.css);
+@import url(./blocks/footer/__copyright/footer__copyright.css);
+
