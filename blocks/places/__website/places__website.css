@@ -5,3 +5,9 @@
   justify-content: flex-end;
   margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .places__website {
+    padding: 0 16px 0 16px;
+  }
+}

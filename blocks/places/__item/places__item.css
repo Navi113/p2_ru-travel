@@ -2,7 +2,7 @@
   width: 100%;
   display: grid;
   padding: 0 0 80px 0;
-  grid-template-columns: 460px 1fr;
+  grid-template-columns: 1fr 49.1%;
   grid-template-areas:
     "title website"
     "img description"
@@ -12,4 +12,29 @@
 
 .places__item:last-child {
   padding: 0;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .places__item {
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .places__item {
+    gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places__item {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "title"
+      "website"
+      "img"
+      "description"
+    ;
+    gap: 32px;
+  }
 }
