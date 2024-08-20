@@ -3,6 +3,9 @@
   line-height: 1.14px;
   font-weight: 400;
   margin: 0;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 660px) {
